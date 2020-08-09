@@ -1,0 +1,83 @@
+/* HEADER */
+
+#header-nav {
+    background-color: #313b72;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+    margin-bottom: 35px;
+}
+
+#menu-button {
+    border-color: #7ee081;
+    background-color: #313b72;
+}
+
+#menu-button span {
+    background-color: #7ee081;
+}
+
+.navbar-brand {
+    margin-top: -20px;
+}
+
+.navbar-brand a h1 {
+    color: #7ee081;
+}
+
+#nav-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list a {
+    text-align: center;
+    color: #7ee081;
+    border: 1px solid #c3f3c0;
+}
+
+
+/* HOME PAGE */
+
+body {
+    background-color: #c3f3c0;
+}
+
+h2 {
+    color: #313b72;
+    font-weight: bold;
+}
+
+.food-container {
+    background-color: #313b72;
+    height: 1000px;
+    color: #7ee081;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.food-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.food-description {
+    font-size: 1.2em;
+}
+
+
+/* Extra small devices only */
+
+@media (max-width: 767px) {
+    .navbar-header {
+        margin-bottom: 0;
+    }
+    .navbar-brand {
+        margin-top: -28px;
+    }
+    .food-container {
+        margin: 20px 35px;
+    }
+}
