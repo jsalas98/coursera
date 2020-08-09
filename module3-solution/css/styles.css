@@ -52,10 +52,13 @@ h2 {
 
 .food-container {
     background-color: #313b72;
-    height: 1000px;
+    height: 1050px;
     color: #7ee081;
     margin-top: 20px;
-    padding: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .food-name {
@@ -64,7 +67,7 @@ h2 {
 }
 
 .food-description {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
@@ -79,5 +82,6 @@ h2 {
     }
     .food-container {
         margin: 20px 35px;
+        height: 1500px;
     }
 }
