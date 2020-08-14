@@ -77,7 +77,6 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
         //
         // TODO: STEP 1: Substitute [...] below with the *value* of the function buildAndShowHomeHTML,
         // so it can be called when server responds with the categories data.
-
         // *** start ***
         // On first load, show home view
         showLoading("#main-content");
